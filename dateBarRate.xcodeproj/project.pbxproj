@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E138A0B11AA6345700725811 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E138A0B01AA6345600725811 /* DataViewController.swift */; };
+		E1978B991A94D00600F1A9D2 /* QuantityMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1978B981A94D00600F1A9D2 /* QuantityMatrix.swift */; };
 		E1B1E41A1A94CEC90059658A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1E4191A94CEC90059658A /* AppDelegate.swift */; };
 		E1B1E41C1A94CEC90059658A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1E41B1A94CEC90059658A /* ViewController.swift */; };
 		E1B1E41F1A94CEC90059658A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B1E41D1A94CEC90059658A /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E138A0B01AA6345600725811 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		E1978B981A94D00600F1A9D2 /* QuantityMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityMatrix.swift; sourceTree = "<group>"; };
 		E1B1E4141A94CEC90059658A /* dateBarRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dateBarRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B1E4181A94CEC90059658A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B1E4191A94CEC90059658A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				E1B1E4191A94CEC90059658A /* AppDelegate.swift */,
 				E1B1E41B1A94CEC90059658A /* ViewController.swift */,
+				E138A0B01AA6345600725811 /* DataViewController.swift */,
+				E1978B981A94D00600F1A9D2 /* QuantityMatrix.swift */,
 				E1B1E41D1A94CEC90059658A /* Main.storyboard */,
 				E1B1E4201A94CEC90059658A /* Images.xcassets */,
 				E1B1E4221A94CEC90059658A /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E138A0B11AA6345700725811 /* DataViewController.swift in Sources */,
 				E1B1E41C1A94CEC90059658A /* ViewController.swift in Sources */,
 				E1B1E41A1A94CEC90059658A /* AppDelegate.swift in Sources */,
+				E1978B991A94D00600F1A9D2 /* QuantityMatrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				E1B1E4351A94CEC90059658A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1B1E4361A94CEC90059658A /* Build configuration list for PBXNativeTarget "dateBarRateTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				E1B1E4381A94CEC90059658A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
